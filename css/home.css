@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    scroll-behavior: smooth;
+}
+/* start header */
+.header {
+    background-color: rgb(174, 174, 185);
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+/* continer of you pages*/
+ .continer {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header .continer .link {
+    display: flex;
+    justify-content: space-between;
+   
+}
+.header .continer .link img {
+    width: 100px;
+}
+.header .continer .link ul li {
+    list-style: none;
+    display: inline-flex;
+    margin: 10px;
+    padding: 10px;
+}
+.header .continer .link ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.header .continer .link ul li a:hover {
+    color:rgb(76, 76, 97)
+}
+/* End header*/
+/* Star About */
+.about {
+    text-align: center;
+    background-image: url(../Potho/landing.jpg);
+    background-size: cover;
+    height: calc(100vh );
+    position: relative;
+    
+}
+.head-cont {
+    margin-top: 0;
+    font-size: 60px;
+    color: rgb(235, 232, 228);
+}
+.about .bout{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.about .bout h3 {
+    font-size: 50px;
+    color: rgb(112 99 99);
+    font-weight: 800;
+}
+.about .bout p {
+    font-size: 20px;
+    line-height: 1.9;
+    letter-spacing: 1px;
+    font-weight: bold;
+    opacity: 0.7;
+}
+/*  End About*/
+/* Start Footer */
+.footer {
+    background-color: dimgrey;
+}
+.footer .foot {
+    text-align: center;
+    padding: 30px; 
+}
+.footer .foot .text {
+    font-size: 30px;
+    font-weight: 600;
+    opacity: 0.5;
+}
+.footer .foot .text span {
+    color: aqua;
+}
+@media (max-width: 767px) {
+    .header .continer .link ul li a {
+        width : 100%;
+    }
+}
+    
+@media (min-width: 768) and (max-width: 991px) {
+    .about {
+        width : 100%;
+        margin: 0;
+    }
+}

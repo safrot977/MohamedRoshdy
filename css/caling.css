@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    scroll-behavior: smooth;
+    margin: 0;
+}
+/* start header */
+.header {
+    background-color: rgb(174, 174, 185);
+    border-radius: 10px;
+    width: 100%;
+    
+    z-index: 1000;
+}
+.continer {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.header .continer .link {
+    display: flex;
+    justify-content: space-between;
+}
+.header .continer .link img {
+    width: 100px;
+}
+.header .continer .link ul li {
+    list-style: none;
+    display: inline-flex;
+    margin: 10px;
+    padding: 10px;
+}
+.header .continer .link ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.header .continer .link ul li a:hover {
+    color:rgb(76, 76, 97)
+}
+/* End header*/
+/* Start contact */
+.contact {
+    background-image: url(../Potho/landing.jpg);
+    background-size: cover;
+    height: calc(100vh );
+}
+.head-cont {
+    margin-top: 0;
+    font-size: 60px;
+    color: rgb(235, 232, 228);
+    text-align: center;
+ }
+.contact .frm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid d1d1d18a;
+    margin-bottom : 20px;
+    /*width: fit-content;*/
+    padding: 20px;
+    background-color: #d1d1d18a;
+ }
+.continer .frm form label {
+    display: flex;
+    margin: 20px;
+    margin-top: 10px;
+ }
+ .inpu ,textarea {
+    padding: 10px;
+    width: 500px;
+    display: block;
+    margin-top: 10px;
+
+ }
+ .continer .frm .le {
+    margin-left: 200px;
+    font-size: xx-large;
+    color: rgb(112 99 99);
+    font-weight: bold;
+ }
+ .but {
+    margin-top: 5px;
+    width: 248px;
+    padding: 5px;
+    background-color: #ffe4c48a;
+    border-radius: 5px;
+    font-size: large;
+ }
+ /*Start The Number*/
+ h3 {
+    font-size: x-large;
+    text-align: center;
+ }
+ .number .num{
+    border: 2px solid #696969a6;
+    text-align: center;
+    display: flex;
+    background-color: #696969a6;
+ }
+ .number span, a{
+    font-size: 32px;
+    color: #fae5c2;
+    font-weight: bold;
+    text-decoration: none;
+ }
+ .number .ram  {
+    
+    justify-content: flex-start;
+ }
+ .number .num .ra{
+    justify-content: center;
+    align-self: center;
+ }
+.number .num .mail a{
+    display: block;
+    text-align: center;
+ }
+ /*End Number*/
+ /*End contact*/
+/* Start Footer */
+.footer {
+    background-color: dimgrey;
+    margin-top: 0;   
+ }
+.footer .foot {
+    text-align: center;
+    padding: 30px; 
+}
+.footer .foot .text {
+    font-size: 30px;
+    font-weight: 600;
+    opacity: 0.5;
+}
+.footer .foot .text span {
+    color: aqua;
+}
+/* End Footer*/
